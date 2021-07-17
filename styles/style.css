@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@900&display=swap');
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;*/
+.page {
+    margin: 0 auto;
+}
+
+.header {
+   background-image: url(../images/desktop/image-header.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 100vh;
+   padding-top: 34px;
+}
+
+.logo_header{
+    width: 170px;
+    height: 33px;
+}
+
+.header__title {
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    color: white;
+    font-size: 56px;
+    line-height: 69px;
+    letter-spacing: 8.75px;
+    text-transform: uppercase;
+    margin-top: 105px;
+    margin-bottom: 150px;
+
+}
+
+.navigation {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__items {
+    display: flex;
+}
+
+.navigation__item {
+    list-style-type: none;
+    margin-left: 47px;
+}
+
+.navigation__link {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation__link_active {
+    color: black;
+    font-family: 'Fraunces', serif;
+    background-color: white;
+    font-size: 15px;
+    padding: 16px 32px;
+    border-radius: 30px;
+}
+
+.arrow-icon {
+    display: block;
+    margin: 0 auto;
+    height: 175px;
+}
+
+.about__section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about__text {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.about__heading {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    line-height: 49.32px;
+    margin: 0 0 30px 0;
+    color:#24303E;
+
+}
+
+.about__paragraph {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #808397;
+    margin: 0;
+
+}
+
+.about__image {
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.about__image_transform {
+    background-image: url(../images/desktop/image-transform.jpg);
+}
+
+.about__image_stand-out {
+    background-image: url(../images/desktop/image-stand-out.jpg);
+}
+
+.about__image_graphic-design {
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+}
+
+.about__image_photography {
+    background-image: url(../images/desktop/image-photography.jpg);
+}
+
+.about__link {
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:0;
+    background-color: rgba(254, 119, 102, 0.25);
+    height: 10px;
+    border-radius: 10px;
+    width: 140px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.button-text {
+    color: rgba(36, 48, 62);
+    position: relative;
+    bottom: 15px;
+}
+
+.testimonials {
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.testimonials__title {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    color: #A7AAAD;
+    margin-bottom: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.testimonials__card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials__card {
+    text-align: center;
+    margin-right: 30px;
+}
+
+.testimonials__avatar {
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+}
+
+.testimonials__card-text {
+    font-family: 'Barlow', sans-serif;
+    max-width: 350px;
+    color: #5B636D;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.testimonials__card-name {
+    font-family: 'Fraunces', serif;
+    color: #24303E;
+    margin-top: 69px;
+    font-size: 18px;
+}
+
+.testimonials__card-job {
+    font-family: 'Barlow', sans-serif;
+    color: #A7AAAD;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 9px;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery__item {
+    width: 25%;
+}
+
+.footer {
+    background-color: #90D4C6
+}
