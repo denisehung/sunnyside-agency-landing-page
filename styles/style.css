@@ -307,6 +307,12 @@ font-family: 'Fraunces', serif;*/
 
 .logo_footer {
     filter: invert(60%) sepia(6%) saturate(3907%) hue-rotate(118deg) brightness(94%) contrast(85%);
+    transition: all 0.3s;
+}
+
+.logo_footer:hover {
+    opacity: 0.8;
+    transform: translate3D(0, -1px, 0) scale(1.1);
 }
 
 .footer {
