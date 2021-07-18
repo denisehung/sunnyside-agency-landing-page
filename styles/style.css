@@ -444,6 +444,11 @@ font-family: 'Fraunces', serif;*/
         height: 375px;
     }
 
+    .about__text-wrapper {
+        text-align: center;
+        width: calc(100% - 48px);
+    }
+
     .about__text_transform, .about__text_stand-out {
         padding-top: 64px;
         padding-bottom: 64px;
