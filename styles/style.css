@@ -55,15 +55,21 @@ font-family: 'Fraunces', serif;*/
     font-size: 18px;
     color: white;
     text-decoration: none;
+    transition: all 0.4s ease;
 }
 
-.navigation__link_active {
+.navigation__link:hover, .navigation__link_active {
     color: black;
     font-family: 'Fraunces', serif;
     background-color: white;
     font-size: 15px;
     padding: 16px 32px;
     border-radius: 30px;
+}
+
+.navigation__link_active:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.25)
 }
 
 .arrow-icon {
@@ -91,7 +97,6 @@ font-family: 'Fraunces', serif;*/
     line-height: 49.32px;
     margin: 0 0 30px 0;
     color:#24303E;
-
 }
 
 .about__paragraph {
@@ -100,7 +105,6 @@ font-family: 'Fraunces', serif;*/
     line-height: 30px;
     color: #808397;
     margin: 0;
-
 }
 
 .about__image {
@@ -125,7 +129,7 @@ font-family: 'Fraunces', serif;*/
     background-image: url(../images/desktop/image-photography.jpg);
 }
 
-.about__link {
+.about__button {
     font-family: 'Fraunces', serif;
     font-size: 15px;
     line-height: 25px;
@@ -139,6 +143,51 @@ font-family: 'Fraunces', serif;*/
     width: 140px;
     margin-top: 40px;
     cursor: pointer;
+    transition: background-color 0.1s ease-in;
+}
+
+.about__button_transform:hover {
+    background-color: #FAD400;
+}
+
+.about__button_stand-out:hover {
+    background-color: #FE7766;
+}
+
+.about__image_graphic-design, .about__image_photography {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 59px;
+}
+
+.about__text_graphic-design {
+    max-width: 339px;
+    text-align: center;
+    color: #24554A;
+}
+
+.about__heading_graphic-design, .about__heading_photography {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+}
+
+.about__paragraph_graphic-design {
+    font-size: 16px;
+    line-height: 27px;
+    color: #24554A;
+}
+
+.about__text_photography {
+    max-width: 339px;
+    text-align: center;
+    color: #19536C;
+}
+
+.about__paragraph_photography {
+    font-size: 16px;
+    line-height: 27px;
+    color: #19536C;
 }
 
 .button-text {
@@ -170,6 +219,10 @@ font-family: 'Fraunces', serif;*/
 .testimonials__card {
     text-align: center;
     margin-right: 30px;
+}
+
+.testimonials__card:last-of-type {
+    margin-right: 0;
 }
 
 .testimonials__avatar {
@@ -210,5 +263,62 @@ font-family: 'Fraunces', serif;*/
 }
 
 .footer {
-    background-color: #90D4C6
+    background-color: #90D4C6;
+    text-align: center;
+}
+
+.logo_footer {
+    filter: invert(60%) sepia(6%) saturate(3907%) hue-rotate(118deg) brightness(94%) contrast(85%);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.footer__nav-items {
+    display: flex;
+    margin: 40px 0 0 0;
+    padding: 0;
+}
+
+.footer__nav-item {
+    list-style-type: none;
+    margin-right: 57px;
+}
+
+.footer__nav-link {
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    color: #458D7E;
+    transition: color 0.3s ease;
+}
+
+.footer__nav-link:hover {
+    color: white;
+}
+
+.footer__nav-item:last-child {
+    margin-right: 0;
+}
+
+.footer__social {
+    margin-top: 88px;
+}
+
+.footer__social-icon {
+    fill: #2C7566;
+    margin-right: 28px;
+    transition: fill 0.3s ease;
+}
+
+.footer__social-icon:last-child {
+    margin-right: 0;
+}
+
+.footer__social-icon:hover {
+    cursor: pointer;
+    fill: #fff;
 }
