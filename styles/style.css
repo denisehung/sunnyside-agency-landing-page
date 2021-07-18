@@ -436,6 +436,10 @@ font-family: 'Fraunces', serif;*/
         flex-direction: column-reverse;
     }
 
+    .about__button {
+        width: 200px;
+    }
+
     .about__image, .about__text {
         width: 100%;
     }
